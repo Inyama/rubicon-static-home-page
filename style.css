@@ -1,0 +1,180 @@
+*, *::before, ::after{
+    padding: 0;
+   }
+   body{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+   }
+   ::-webkit-scrollbar{
+       display:none;
+   }
+   .coffee{
+       background: url(images/a\ man\ with\ a\ cup\ of\ coffee.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 100%;
+       height: 786px;
+       font-family: 'Noto Sans SC', sans-serif;
+   }
+   .q{
+       margin-left: 10px;
+       font-size: 20px;
+   }
+   #section1{
+       display: flex;
+       flex-direction: row;
+       padding-top: 8px;
+   }
+   .align{
+       display:inline;
+       padding-left: 35px;
+       font-size: 15px;
+   }
+   .inlin{
+       margin-top: -10px;
+       margin-left: 850px;
+       font-size: 15px;
+   }
+   .icon{
+       position: absolute;
+       justify-content: right;
+       margin-left: 637px;
+   }
+   .trans{
+       text-align: center;
+       margin-top:568px;
+       font-size:24px;
+   }
+   .fw{
+       font-weight: bolder;
+       font-size: 39px;
+       margin-top: -13px;
+       line-height: 44px;
+   }
+   .para{
+       text-align: center;
+       line-height: 21px;
+       margin-top: 20px;
+       font-family: 'Noto Sans SC', sans-serif;
+   }
+   .flow{
+       padding-top: 20px;
+       font-family: 'Noto Sans SC', sans-serif;
+       margin-top: 30px;
+   }
+   .first{
+       display: flex;
+       flex-direction: row-reverse;
+   }
+   .second{
+       display: flex;
+   }
+   .logo1{
+       text-align: center;
+   }
+   .logo2{
+       text-align: center;
+   }
+   .logo3{
+       text-align: center;
+   }
+   .logo4{
+       text-align: center;
+   }
+   .spa{
+       margin: 20px;
+   }
+   .third{
+    background: url(images/closed\ mac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:600px;
+    color:white;
+    padding-left: 20px;
+    padding-top: 80px;
+    position: relative;
+   }
+   .opac{
+       opacity:  .8;
+       background-color: #333;
+       position: absolute;
+       margin: -81px -19px;
+       width: 100%;
+       height: 100%;
+   }
+   .tran{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 77px;
+   }
+   .bol{
+    line-height: 24px;
+    margin-left: 77px;
+   }
+   .fort{
+    padding-top: 24px;
+    font-size: 30px;
+    margin-left: 77px;
+   }
+   .cm{
+       padding-left: 26px;
+   }
+   #footer {
+    background-color: #e6e2e2;
+    position: relative;
+    height: 121px;
+    clear:both;
+    border-radius: 5px;
+    text-align:center;
+    padding:15px;
+    font-size: 90%;
+}
+
+
+#footer ul{
+    padding:5px;
+    list-style-type: none;
+    text-align: center;
+    /* background-color: #000; */
+    margin: auto;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    border-radius: 5px;
+}
+
+#footer ul li{  
+    display:inline;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-family:arial;
+    padding: .2em 1em;
+    color: #e59742;
+    /* background-color: #e59742; */
+}
+
+#footer ul li a:hover {
+    color: #000;
+}
+.feet{
+    text-align: center;
+    padding-left: inherit;
+    padding-top: 15px;
+}
+.sap{
+    padding-left: 22px;
+    font-size: 16px;
+    color: #e59742;
+}
+.reserved{
+    padding-left: 24px;
+    padding-top: 7px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
